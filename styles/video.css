@@ -1,0 +1,166 @@
+
+        
+           p{
+            color: black;
+           }
+           .div1{
+                
+                
+                box-shadow: 2px 5px 15px rgba(0,0,0,0.07);
+            }
+            .pic1 {
+                
+              width: 100%;
+                
+                object-position: center;
+                object-fit: cover;
+                vertical-align: middle;
+                border-radius: 18px;
+                
+            }
+          
+          
+            .title{
+                font-weight: bold;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+               margin-top: 0px;
+                line-height: 25px;
+                margin-bottom: 0px;
+                padding-right: 5px;
+                line-height: 25px;
+                
+            }
+            .channel{
+                margin-top: 4px;
+                margin-bottom: 5px;
+                color: rgb(105, 105, 105);
+                font-size: 14px;
+            }
+            .views{
+                margin-top: 2px;
+                font-size: 14px;
+                color: rgb(105, 105, 105);
+                
+               
+            }
+
+            .video-info-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
+
+           .channel-picture{
+            
+            vertical-align: top;
+            height: 100%;
+          
+           }
+           .video-info{
+            
+            margin-left: 0px;
+           
+          
+           }
+           .profile-picture{
+            width: 40px;
+            border-radius: 50%;
+           }
+           .thumbnail{
+            margin-bottom: 10px;
+          position: relative;
+           }
+          .video-grid{
+            margin-top: 5px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 30px;
+          } 
+          @media (max-width:1000px){
+            .video-grid{
+              grid-template-columns: 1fr 1fr;
+            }
+
+          }
+          @media (min-width:1001px) and (max-width:1299px){
+            .video-grid{
+              grid-template-columns: 1fr 1fr 1fr;
+            }
+          }
+
+          @media (min-width:1300px){
+            .video-grid{
+              grid-template-columns: 1fr 1fr 1fr ;
+            }
+
+          }
+         
+
+
+          .video-time{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            bottom: 7px;
+            right: 7px;
+            font-weight: 500;
+            padding-left: 2px;
+            padding-right: 2px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border-radius: 5px;
+          }
+
+          .shorts{
+       
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            column-gap: 7px;
+            margin-bottom: 35px;
+          }
+          .shorts .shorts-video{
+      
+            height: 530px;
+          }
+          .shorts img{
+            height: 85%;
+          }
+          .short-info{
+            color: black;
+            margin-top: 7px;
+            width: 100%;
+            font-weight: bold;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 0px;
+          }
+          .short-views{
+            margin-top: 7px;
+            font-size: 14px;
+            color: rgb(86, 83, 83);
+          }
+          .short-icon{
+            margin-top: 35px;
+          
+            margin-bottom: 0px;
+            display: flex;
+          }
+          .short-logo{
+            width: 25px;
+         
+          }
+          .short-title{
+            margin-left: 5px;
+              font-weight: 800;
+              font-size: 20px;
+              font-family: Arial, Helvetica, sans-serif;
+          }
+          a{
+            text-decoration: none;
+          }
+          .channel:hover{
+              color: rgb(0, 0, 0);
+          }
